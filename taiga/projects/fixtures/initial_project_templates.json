@@ -1043,9 +1043,9 @@
         ],
         "roles": [
             {
-                "slug": "ux",
+                "slug": "survey",
                 "computable": true,
-                "name": "UX",
+                "name": "Survey",
                 "order": 10,
                 "permissions": [
                     "add_issue",
@@ -1084,9 +1084,9 @@
                 ]
             },
             {
-                "slug": "design",
+                "slug": "engineering",
                 "computable": true,
-                "name": "Design",
+                "name": "Engineering",
                 "order": 20,
                 "permissions": [
                     "add_issue",
@@ -1125,9 +1125,9 @@
                 ]
             },
             {
-                "slug": "front",
+                "slug": "survey-crew",
                 "computable": true,
-                "name": "Front",
+                "name": "Survey crew",
                 "order": 30,
                 "permissions": [
                     "add_issue",
@@ -1166,9 +1166,9 @@
                 ]
             },
             {
-                "slug": "back",
+                "slug": "project-manager",
                 "computable": true,
-                "name": "Back",
+                "name": "Project Manager",
                 "order": 40,
                 "permissions": [
                     "add_issue",
