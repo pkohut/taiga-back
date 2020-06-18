@@ -662,7 +662,7 @@
             "points": "?",
             "priority": "Normal",
             "us_status": "New",
-            "issue_type": "Bug",
+            "issue_type": "Deficient",
             "epic_status": "New",
             "severity": "Normal",
             "task_status": "New",
@@ -691,9 +691,9 @@
                 "is_closed": false
             },
             {
-                "slug": "ready-for-test",
+                "slug": "ready-for-review",
                 "color": "#fcc000",
-                "name": "Ready for test",
+                "name": "Ready for review",
                 "order": 4,
                 "is_closed": false
             },
@@ -734,8 +734,8 @@
                 "wip_limit": null
             },
             {
-                "slug": "ready-for-test",
-                "name": "Ready for test",
+                "slug": "ready-for-review",
+                "name": "Ready for review",
                 "order": 4,
                 "is_archived": false,
                 "color": "#4e9a06",
@@ -862,9 +862,9 @@
                 "is_closed": false
             },
             {
-                "slug": "ready-for-test",
+                "slug": "ready-for-review",
                 "color": "#f57900",
-                "name": "Ready for test",
+                "name": "Ready for review",
                 "order": 3,
                 "is_closed": true
             },
@@ -922,9 +922,9 @@
                 "is_closed": false
             },
             {
-                "slug": "ready-for-test",
+                "slug": "ready-for-review",
                 "color": "#f57900",
-                "name": "Ready for test",
+                "name": "Ready for review",
                 "order": 3,
                 "is_closed": true
             },
@@ -960,7 +960,7 @@
         "issue_types": [
             {
                 "color": "#cc0000",
-                "name": "Bug",
+                "name": "Deficient",
                 "order": 1
             },
             {
@@ -970,7 +970,7 @@
             },
             {
                 "color": "#4e9a06",
-                "name": "Enhancement",
+                "name": "Modification",
                 "order": 3
             }
         ],
