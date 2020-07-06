@@ -28,7 +28,7 @@ from django.utils.translation import ugettext as _
 URL_TEMPLATE = "{scheme}://{domain}/{path}"
 
 
-def build_url(path, scheme="http", domain="localhost"):
+def build_url(path, scheme="http", domain="192.168.0.54"):
     return URL_TEMPLATE.format(scheme=scheme, domain=domain, path=path.lstrip("/"))
 
 
