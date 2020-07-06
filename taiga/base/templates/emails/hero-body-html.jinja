@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>{{ _("You have been Taigatized") }}</title>
+        <title>{{ _("You have been accepted") }}</title>
         <style type="text/css">
             /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
             #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
@@ -291,8 +291,8 @@
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
                                         <tr>
                                             <td valign="top" class="headerContent" background="{{ static("emails/top-bg-hero.png") }}" style="background-position: center center">
-                                                <a href="{{ resolve_front_url("home") }}" title="Taiga">
-                                                    <img src="{{ static("emails/logo.png") }}" id="headerImage" alt="Taiga" />
+                                                <a href="{{ resolve_front_url("home") }}" title="T4 Project">
+                                                    <img src="{{ static("emails/logo.png") }}" id="headerImage" alt="T4 Project" />
                                                 </a>
                                                 {% trans product_name=sr("product_name") %}
                                                 <p>Welcome to {{ product_name }}, an Open Source, Agile Project Management Tool</p>

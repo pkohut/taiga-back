@@ -27,6 +27,6 @@ SR = {
         "url": "https://tree.taiga.io/support/",
         "email": "support@taiga.io"
     },
-    "signature": "The Taiga Team",
-    "product_name": "Taiga",
+    "signature": "The T4 Project Team",
+    "product_name": "T4 Project",
 }

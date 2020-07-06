@@ -10,7 +10,7 @@
 {% block body %}
     {% trans full_name=sender_full_name, project=membership.project, product_name=sr("product_name") %}
     <h2>You have been invited to {{ product_name }}!</h2>
-<p>Hi! {{ full_name }} has sent you an invitation to join project <em>{{ project }}</em> in {{ product_name }}.</br> Taiga is an Open Source Agile Project Management Tool. There is no cost for you to be a Taiga user.</p>
+<p>Hi! {{ full_name }} has sent you an invitation to join project <em>{{ project }}</em> in {{ product_name }}.</br> T4 Project is an Open Source Agile Project Management Tool. There is no cost for you to be a T4 Project user.</p>
     {% endtrans %}
 
     {% if membership.invitation_extra_text %}
@@ -21,7 +21,7 @@
     {% endif %}
 
     <a class="button" href="{{ resolve_front_url("invitation", membership.token) }}"
-       title="{{ _("Accept your invitation to Taiga") }}">{{ _("Accept your invitation") }}</a>
+       title="{{ _("Accept your invitation to T4 Project") }}">{{ _("Accept your invitation") }}</a>
     {% trans signature=sr("signature") %}
     <p><small>{{ signature }}</small></p>
     {% endtrans %}
